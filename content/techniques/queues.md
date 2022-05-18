@@ -100,7 +100,7 @@ With this in place, you can now point to this configuration in the `registerQueu
 
 ```typescript
 BullModule.registerQueue({
-  configKey: 'alternative-queue'
+  configKey: 'alternative-config'
   name: 'video',
 });
 ```
